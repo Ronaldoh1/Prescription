@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddPatientVC.h
 //  Med Tracker
 //
 //  Created by Ronald Hernandez on 10/25/15.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface AddPatientVC : CoreViewController
 
 @end
-

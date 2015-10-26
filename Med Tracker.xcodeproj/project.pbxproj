@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		F2BD66821BDDC9EC00D189F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD66811BDDC9EC00D189F3 /* main.m */; };
 		F2BD66851BDDC9ED00D189F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD66841BDDC9ED00D189F3 /* AppDelegate.m */; };
-		F2BD66881BDDC9ED00D189F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD66871BDDC9ED00D189F3 /* ViewController.m */; };
 		F2BD668B1BDDC9ED00D189F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BD66891BDDC9ED00D189F3 /* Main.storyboard */; };
 		F2BD668E1BDDC9ED00D189F3 /* Med_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2BD668C1BDDC9ED00D189F3 /* Med_Tracker.xcdatamodeld */; };
 		F2BD66901BDDC9ED00D189F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BD668F1BDDC9ED00D189F3 /* Assets.xcassets */; };
 		F2BD66931BDDC9ED00D189F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BD66911BDDC9ED00D189F3 /* LaunchScreen.storyboard */; };
 		F2BD669E1BDDC9ED00D189F3 /* Med_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD669D1BDDC9ED00D189F3 /* Med_TrackerTests.m */; };
+		F2BD66AB1BDDD07A00D189F3 /* PatientTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD66AA1BDDD07A00D189F3 /* PatientTVC.m */; };
+		F2BD66AE1BDDD0B300D189F3 /* PrescriptionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD66AD1BDDD0B300D189F3 /* PrescriptionTVC.m */; };
+		F2BD66B11BDDD10900D189F3 /* AddPatientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD66B01BDDD10900D189F3 /* AddPatientVC.m */; };
+		F2BD66B41BDDD11A00D189F3 /* AddPrescriptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD66B31BDDD11A00D189F3 /* AddPrescriptionVC.m */; };
+		F2BD66B71BDDF8F600D189F3 /* CoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BD66B61BDDF8F600D189F3 /* CoreViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +36,6 @@
 		F2BD66811BDDC9EC00D189F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2BD66831BDDC9EC00D189F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2BD66841BDDC9ED00D189F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2BD66861BDDC9ED00D189F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2BD66871BDDC9ED00D189F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F2BD668A1BDDC9ED00D189F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2BD668D1BDDC9ED00D189F3 /* Med_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Med_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		F2BD668F1BDDC9ED00D189F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +44,16 @@
 		F2BD66991BDDC9ED00D189F3 /* Med TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Med TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BD669D1BDDC9ED00D189F3 /* Med_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Med_TrackerTests.m; sourceTree = "<group>"; };
 		F2BD669F1BDDC9ED00D189F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BD66A91BDDD07A00D189F3 /* PatientTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatientTVC.h; path = ../PatientTVC.h; sourceTree = "<group>"; };
+		F2BD66AA1BDDD07A00D189F3 /* PatientTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatientTVC.m; path = ../PatientTVC.m; sourceTree = "<group>"; };
+		F2BD66AC1BDDD0B300D189F3 /* PrescriptionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrescriptionTVC.h; sourceTree = "<group>"; };
+		F2BD66AD1BDDD0B300D189F3 /* PrescriptionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrescriptionTVC.m; sourceTree = "<group>"; };
+		F2BD66AF1BDDD10900D189F3 /* AddPatientVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPatientVC.h; sourceTree = "<group>"; };
+		F2BD66B01BDDD10900D189F3 /* AddPatientVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPatientVC.m; sourceTree = "<group>"; };
+		F2BD66B21BDDD11A00D189F3 /* AddPrescriptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPrescriptionVC.h; sourceTree = "<group>"; };
+		F2BD66B31BDDD11A00D189F3 /* AddPrescriptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPrescriptionVC.m; sourceTree = "<group>"; };
+		F2BD66B51BDDF8F600D189F3 /* CoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreViewController.h; sourceTree = "<group>"; };
+		F2BD66B61BDDF8F600D189F3 /* CoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +95,20 @@
 		F2BD667F1BDDC9EC00D189F3 /* Med Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				F2BD66A81BDDCFC300D189F3 /* Data */,
 				F2BD66831BDDC9EC00D189F3 /* AppDelegate.h */,
 				F2BD66841BDDC9ED00D189F3 /* AppDelegate.m */,
-				F2BD66861BDDC9ED00D189F3 /* ViewController.h */,
-				F2BD66871BDDC9ED00D189F3 /* ViewController.m */,
+				F2BD66A91BDDD07A00D189F3 /* PatientTVC.h */,
+				F2BD66AF1BDDD10900D189F3 /* AddPatientVC.h */,
+				F2BD66B01BDDD10900D189F3 /* AddPatientVC.m */,
+				F2BD66B21BDDD11A00D189F3 /* AddPrescriptionVC.h */,
+				F2BD66B31BDDD11A00D189F3 /* AddPrescriptionVC.m */,
+				F2BD66AA1BDDD07A00D189F3 /* PatientTVC.m */,
+				F2BD66AC1BDDD0B300D189F3 /* PrescriptionTVC.h */,
+				F2BD66AD1BDDD0B300D189F3 /* PrescriptionTVC.m */,
 				F2BD66891BDDC9ED00D189F3 /* Main.storyboard */,
+				F2BD66B51BDDF8F600D189F3 /* CoreViewController.h */,
+				F2BD66B61BDDF8F600D189F3 /* CoreViewController.m */,
 				F2BD668F1BDDC9ED00D189F3 /* Assets.xcassets */,
 				F2BD66911BDDC9ED00D189F3 /* LaunchScreen.storyboard */,
 				F2BD66941BDDC9ED00D189F3 /* Info.plist */,
@@ -112,6 +133,13 @@
 				F2BD669F1BDDC9ED00D189F3 /* Info.plist */,
 			);
 			path = "Med TrackerTests";
+			sourceTree = "<group>";
+		};
+		F2BD66A81BDDCFC300D189F3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,10 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BD66881BDDC9ED00D189F3 /* ViewController.m in Sources */,
 				F2BD668E1BDDC9ED00D189F3 /* Med_Tracker.xcdatamodeld in Sources */,
+				F2BD66AB1BDDD07A00D189F3 /* PatientTVC.m in Sources */,
 				F2BD66851BDDC9ED00D189F3 /* AppDelegate.m in Sources */,
 				F2BD66821BDDC9EC00D189F3 /* main.m in Sources */,
+				F2BD66B11BDDD10900D189F3 /* AddPatientVC.m in Sources */,
+				F2BD66AE1BDDD0B300D189F3 /* PrescriptionTVC.m in Sources */,
+				F2BD66B41BDDD11A00D189F3 /* AddPrescriptionVC.m in Sources */,
+				F2BD66B71BDDF8F600D189F3 /* CoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
